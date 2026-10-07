@@ -29,29 +29,8 @@ public class StudyCase0216 {
                     System.out.println("Nama: " + studentName);
                     System.out.println("Status: DITOLAK (Dana tidak diberikan)");
                     System.out.println("Alasan: Hanya Juara 1, 2, dan 3 yang berhak menerima dana.");
-                 if (activityType.equalsIgnoreCase("PKM")) {
-                
-                System.out.print("Masukkan Status Pendanaan PKM (1 = Didanai, 0 = Tidak Didanai): ");
-                int pkmStatus = sc.nextInt();
-
-                if (pkmStatus == 1){
-                    System.out.println("Nama: " + studentName);
-                    System.out.println("Status: DITERIMA (Mendapatkan dana penghargaan)");
-                    System.out.println("Alasan: Tim lolos pendanaan PKM dan dokumen lengkap.");
-                } else {
-                    System.out.println("Nama: " + studentName);
-                    System.out.println("Status: DITOLAK (Dana tidak diberikan)");
-                    System.out.println("Alasan: Tim PKM tidak lolos pendanaan.");
                 }
-
-            } else {
-                System.out.println("Nama: " + studentName);
-                System.out.println("Status: DITOLAK (Dana tidak diberikan)");
-                System.out.println("Alasan: Jenis kegiatan '" + activityType + "' tidak termasuk dalam skema penerima dana.");
             }
-        }
-
-            } 
             sc.close();
         }
 
