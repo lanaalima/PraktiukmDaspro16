@@ -13,6 +13,25 @@ public class StudyCase0116 {
     int kembalian;
     int kurang;
 
+    totalHarga = hargaPerCup * jumlahCup;
+    if (totalHarga >= 100000){
+        diskon = totalHarga * 10 / 100;
+    }
+    totalBayar = totalHarga - diskon;
+    System.out.println("Total harga: " + totalHarga);
+    System.out.println("Diskon: " + diskon);
+    System.out.println("Total bayar: " + totalBayar);
+    
+    if (uangBayar >= totalBayar){
+        kembalian = uangBayar - totalBayar;
+        System.out.println("Kembalian: " + kembalian);
+    } else{
+        kurang = totalBayar - uangBayar;
+        System.out.println("Not enough money short by Rp" + kurang);
+
+
+    }
+
     
     
     sc.close();
