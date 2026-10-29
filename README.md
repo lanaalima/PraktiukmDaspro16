@@ -4,7 +4,7 @@ Kelas : SIB 1G
 
 
 
-Test Results of Case Study 2 by <Sinta>
+Test Results of Case Study 2 by <Baritha>
 | No | Type  | Documents | Rank/Funding | Output   | Correct? |
 |----|-------|---------|------------|---------|---------|
 | 1  | 2     | 4         | 3            | Eligible | Yes      |
